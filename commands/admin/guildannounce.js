@@ -5,8 +5,8 @@ const { RichEmbed } = require('discord.js');
 module.exports = class AnnounceCommand extends Command {
   constructor(bot) {
     super(bot, {
-      name: 'announce',
-      aliases: ['update', 'lann', 'sendupdate'],
+      name: 'gannounce',
+      aliases: ['gupdate', 'glann', 'gsendupdate'],
       group: 'control',
       memberName: 'announce',
       description: 'Sends an announcemnt to #announcements in SERVER',
